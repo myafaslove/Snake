@@ -98,7 +98,7 @@ public class MainFrame extends JFrame {
         };
 
         //每100ms执行一次定时任务
-        timer.scheduleAtFixedRate(timerTask, 0, 10);//延迟
+        timer.scheduleAtFixedRate(timerTask, 0, 100);//延迟
     }
 
     private void initSnake() {
