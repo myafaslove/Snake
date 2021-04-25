@@ -89,7 +89,7 @@ public class MainFrame extends JFrame {
                 //判断蛇头是否和食物重合
                 Node head = snake.getBody().getFirst();
                 if (head.getX() == food.getX() && head.getY() == food.getY()) {
-                    snake.eat(food);
+                    snake.eat();
                     food.random();
                 }
                 //重绘游戏棋盘

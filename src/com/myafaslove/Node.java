@@ -22,17 +22,17 @@ public class Node {
         return x;
     }
 
-    public void setX(int x) {
-        this.x = x;
-    }
+//    public void setX(int x) {
+//        this.x = x;
+//    }
 
     public int getY() {
         return y;
     }
 
-    public void setY(int y) {
-        this.y = y;
-    }
+//    public void setY(int y) {
+//        this.y = y;
+//    }
 
     //随机生成位置，为后期食物做准备
     public void random() {

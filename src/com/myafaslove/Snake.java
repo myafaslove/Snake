@@ -84,9 +84,9 @@ public class Snake {
         return body;
     }
 
-    public void setBody(LinkedList<Node> body) {
-        this.body = body;
-    }
+//    public void setBody(LinkedList<Node> body) {
+//        this.body = body;
+//    }
 
     public Direction getDirection() {
         return direction;
@@ -97,7 +97,7 @@ public class Snake {
     }
 
     //吃食物   沿着蛇头的移动方向添加一个节点
-    public void eat(Node food) {
+    public void eat() {
         //获取蛇头
         Node head = body.getFirst();
         switch (direction) {
